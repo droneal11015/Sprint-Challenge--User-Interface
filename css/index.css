@@ -142,7 +142,6 @@ header nav a:hover{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -163,35 +162,46 @@ header nav a:hover{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-.box-1{
-	background:teal;
+
+.b-1{
+    background:teal;
+    border-radius: 25px;
 }
-.box-2{
-	background:gold;
+.b-2{
+    background:gold;
+    border-radius: 25px;
 }
-.box-3{
-	background:cadetblue;
+.b-3{
+    background:cadetblue;
+    border-radius: 25px;
 }
-.box-4{
-	background-color:coral;
+.b-4{
+    background-color:coral;
+    border-radius: 25px;
 }             
-.box-5{          
-	background-color:crimson;
+.b-5{          
+    background-color:crimson;
+    border-radius: 25px;
 }             
-.box-6{          
-	background-color:forestgreen;
+.b-6{          
+    background-color:forestgreen;
+    border-radius: 25px;
 }             
-.box-7{          
-	background-color:darkorchid;
+.b-7{          
+    background-color:darkorchid;
+    border-radius: 25px;
 }             
-.box-8{          
-	background-color:hotpink;
+.b-8{          
+    background-color:hotpink;
+    border-radius: 25px;
 }             
-.box-9{          
-	background-color:indigo;
+.b-9{          
+    background-color:indigo;
+    border-radius: 25px;
 }             
-.box-10{         
-	background-color:dodgerblue;
+.b-10{         
+    background-color:dodgerblue;
+    border-radius: 25px;
 }
 footer {
     width: 100%;
