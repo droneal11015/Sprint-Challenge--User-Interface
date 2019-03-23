@@ -126,6 +126,7 @@ header nav a:hover{
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px;
 }
 
 .middle-content h2 {
@@ -259,3 +260,9 @@ footer nav a {
 	padding:5px 20px;
 	border:1px solid black;
 }
+
+.shadow {
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
