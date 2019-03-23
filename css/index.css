@@ -70,6 +70,44 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+	margin: 20px 40px 20px 0;
+}
+	
+
+header nav{
+	display:flex;
+	justify-content:space-between;
+	align-items:baseline;
+}
+
+section.jumbo{
+	margin:20px 0;
+}
+
+header nav a{
+	text-decoration:none;
+	color:#000;
+	position: relative;
+	-webkit-animation: mdown 1s ; /* Safari 4.0 - 8.0 */
+	animation: mdown 1s;
+}
+
+header nav a:last{
+	position: relative;
+	-webkit-animation: mright 1s ; /* Safari 4.0 - 8.0 */
+	animation: mright 1s;
+}
+
+header nav a img{
+	position: relative;
+  -webkit-animation: mright 1s ; /* Safari 4.0 - 8.0 */
+  animation: mright 1s;
+}
+header nav a:hover{
+	text-decoration:none;
+	color:#666;
+}
 
 .top-content {
     display: flex;
@@ -125,7 +163,36 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.box-1{
+	background:teal;
+}
+.box-2{
+	background:gold;
+}
+.box-3{
+	background:cadetblue;
+}
+.box-4{
+	background-color:coral;
+}             
+.box-5{          
+	background-color:crimson;
+}             
+.box-6{          
+	background-color:forestgreen;
+}             
+.box-7{          
+	background-color:darkorchid;
+}             
+.box-8{          
+	background-color:hotpink;
+}             
+.box-9{          
+	background-color:indigo;
+}             
+.box-10{         
+	background-color:dodgerblue;
+}
 footer {
     width: 100%;
     background: black;
@@ -144,3 +211,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About.html page initial*/
